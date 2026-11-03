@@ -1,30 +1,43 @@
-# Estruturas de Dados em C
+# Estruturas de Dados e Algoritmos
 
-Repositório dedicado aos exercícios e práticas da disciplina de **Estruturas de Dados**, utilizando a linguagem C.
+Repositório de exercícios e implementações desenvolvidos durante meus estudos de lógica, recursividade e algoritmos de ordenação. O material utiliza principalmente **C**, com alguns exercícios em **C++**.
 
-O objetivo é consolidar a lógica de programação e compreender como diferentes estruturas organizam, armazenam e permitem manipular dados.
+## Conteúdos presentes
 
-## Conteúdos
+- Recursividade e funções recursivas.
+- Cálculo de potência e sequência de Fibonacci.
+- Algoritmos de ordenação:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
 
-Este repositório reúne implementações e exercícios desenvolvidos ao longo dos estudos. Os tópicos são organizados conforme forem trabalhados na disciplina.
+## Organização
 
-## Tecnologias
+Cada diretório reúne um exercício ou implementação independente. Os arquivos-fonte ficam junto dos respectivos exemplos.
 
-- Linguagem C
-- Compilação e execução pelo toolchain C disponível no ambiente de desenvolvimento
+## Compilação
 
-## Como compilar
-
-Para um arquivo-fonte individual, com GCC instalado:
+Para compilar um arquivo C com GCC:
 
 ```bash
-gcc arquivo.c -o programa
+gcc caminho/arquivo.c -o programa
 ./programa
 ```
 
-Substitua `arquivo.c` pelo nome do arquivo que deseja compilar.
+Para um arquivo C++:
 
-> Repositório de estudos em evolução: exemplos e implementações podem ser revisados à medida que novos conceitos são aprendidos.
+```bash
+g++ caminho/arquivo.cpp -o programa
+./programa
+```
+
+Substitua o caminho pelo arquivo que deseja executar.
+
+## Observação
+
+Este é um repositório de estudos. Alguns diretórios também contêm arquivos gerados por IDEs ou binários de compilação; os fontes são a referência principal para acompanhar as implementações.
 
 ## Autor
 
